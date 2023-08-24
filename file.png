@@ -1,19 +1,27 @@
-                GK        MF        DF        FW    1 to 6   7 to 12  \
-GK        1.000000  0.942267  0.930646  0.933378  0.907368  0.875736   
-MF        0.942267  1.000000  0.914980  0.970731  0.940649  0.842085   
-DF        0.930646  0.914980  1.000000  0.949719  0.956297  0.862398   
-FW        0.933378  0.970731  0.949719  1.000000  0.945684  0.846015   
-1 to 6    0.907368  0.940649  0.956297  0.945684  1.000000  0.753263   
-7 to 12   0.875736  0.842085  0.862398  0.846015  0.753263  1.000000   
-13 to 18  0.775689  0.891147  0.786426  0.919268  0.782062  0.719659   
-19 to 24  0.909186  0.841914  0.778484  0.802159  0.783924  0.647860   
+   League Range 1 League Range 2 T-Statistic P-Value  \
+0          1 to 6        7 to 12       2.707   0.014   
+1          1 to 6       13 to 18       2.902   0.009   
+2          1 to 6       19 to 24       4.242   0.000   
+3         7 to 12         1 to 6      -2.707   0.014   
+4         7 to 12       13 to 18       0.153   0.880   
+5         7 to 12       19 to 24       2.486   0.023   
+6        13 to 18         1 to 6      -2.902   0.009   
+7        13 to 18        7 to 12      -0.153   0.880   
+8        13 to 18       19 to 24       2.799   0.012   
+9        19 to 24         1 to 6      -4.242   0.000   
+10       19 to 24        7 to 12      -2.486   0.023   
+11       19 to 24       13 to 18      -2.799   0.012   
 
-          13 to 18  19 to 24  
-GK        0.775689  0.909186  
-MF        0.891147  0.841914  
-DF        0.786426  0.778484  
-FW        0.919268  0.802159  
-1 to 6    0.782062  0.783924  
-7 to 12   0.719659  0.647860  
-13 to 18  1.000000  0.710408  
-19 to 24  0.710408  1.000000  
+                            Result  
+0           Reject null hypothesis  
+1           Reject null hypothesis  
+2           Reject null hypothesis  
+3           Reject null hypothesis  
+4   Fail to reject null hypothesis  
+5           Reject null hypothesis  
+6           Reject null hypothesis  
+7   Fail to reject null hypothesis  
+8           Reject null hypothesis  
+9           Reject null hypothesis  
+10          Reject null hypothesis  
+11          Reject null hypothesis  
